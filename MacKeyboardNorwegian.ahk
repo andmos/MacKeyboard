@@ -94,7 +94,10 @@ Lwin & Tab::AltTab
 ; --------------------------------------------------------------
 
 ; Map @ correctly
-'::SendInput {@}
+'::@
+
+; Map ' correctly
+|::'
 
 ; Map Shift + Alt + 7 to \
 +!7::SendInput {\}
