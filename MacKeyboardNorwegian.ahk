@@ -136,7 +136,7 @@ Lwin & Tab::AltTab
 ; Map Alt + R to ®
 !r::SendInput {®}
 
-; Map Alt + N to |
+; Map Alt + 7 to |
 !7::SendInput {|}
 <^>!7::SendInput {|}
 
