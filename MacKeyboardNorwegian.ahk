@@ -9,6 +9,7 @@
 ; ^ = CTRL
 ; + = SHIFT
 ; # = WIN
+; <^>! = ALTGR
 ;
 ; Debug action snippet: MsgBox You pressed Control-A while Notepad is active.
 
