@@ -110,6 +110,9 @@ Lwin & Tab::AltTab
 ; Map Alt + o to ø
 !o::SendInput {ø}
 
+; Map Shift + 4 to $
++4::SendInput {$}
+
 ; Map Alt + 5 to [
 !5::SendInput {[}
 
