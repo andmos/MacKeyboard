@@ -80,6 +80,13 @@ F15::SendInput {Pause}
 ; close tab
 #w::^w
 
+; Bold:
+#b::^b
+
+; Italic:
+#i::^i
+
+
 ; Close windows (cmd + q to Alt + F4)
 #q::Send !{F4}
 
