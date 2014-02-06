@@ -113,11 +113,11 @@ Lwin & Tab::AltTab
 ; Map Shift + 4 to $
 +4::SendInput {$}
 
-; Map Alt + 5 to [
-!5::SendInput {[}
+; Map Alt + 8 to [
+!8::SendInput {[}
 
-; Map Alt + 6 to ]
-!6::SendInput {]}
+; Map Alt + 9 to ]
+!9::SendInput {]}
 
 ; Map Alt + E to €
 !e::SendInput {€}
