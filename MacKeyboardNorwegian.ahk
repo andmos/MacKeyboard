@@ -74,6 +74,9 @@ F15::SendInput {Pause}
 ; Redo
 #y::^y
 
+; New Window
+#n::^n
+
 ; New tab
 #t::^t
 
