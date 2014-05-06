@@ -38,9 +38,11 @@ F12::SendInput {Volume_Up}
 ; Eject Key
 F20::SendInput {Insert}
 
-; Alt + Insert (Generate code in ReSharper)
-LAlt & Insert::SendInput {LAlt Down}{Insert}
+; Alt + Insert (New File in ReSharper)
+;LAlt & Insert::SendInput {LCtrl Down}{LAlt Down}{Insert}
 
+; Alt + Insert (Generate Code ReSharper)
+LAlt & Insert::SendInput {LAlt Down}{Insert}
 
 
 ; F13-15, standard windows mapping
