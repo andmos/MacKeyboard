@@ -38,10 +38,15 @@ F12::SendInput {Volume_Up}
 ; Eject Key
 F20::SendInput {Insert}
 
+; Alt + Insert (Generate code in ReSharper)
+LAlt & Insert::SendInput {LAlt Down}{Insert}
+
+
+
 ; F13-15, standard windows mapping
 F13::SendInput {PrintScreen}
 F14::SendInput {ScrollLock}
-F15::SendInput {Pause}
+; F15::SendInput {Pause}
 
 ; --------------------------------------------------------------
 ; OS X system shortcuts
@@ -105,10 +110,14 @@ Lwin & Tab::AltTab
 ; --------------------------------------------------------------
 
 ; Map @ correctly
-'::@
+'::@ 
+
+
 
 ; Map ' correctly
 |::'
+ 
++@::SendInput {NumpadMult}
 
 ; Map Shift + Alt + 7 to \
 +!7::SendInput {\}
