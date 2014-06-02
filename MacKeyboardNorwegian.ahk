@@ -96,6 +96,8 @@ F14::SendInput {ScrollLock}
 ; Italic:
 #i::^i
 
+; Bookmark (at least in some browsers)
+#d::^d
 
 ; Close windows (cmd + q to Alt + F4)
 #q::Send !{F4}
