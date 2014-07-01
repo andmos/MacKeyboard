@@ -6,6 +6,10 @@ This [AutoHotkey](http://www.autohotkey.com/) configuration file makes usual key
 
 Programmers will note that all brackets has found the way to the correct keys, OS X style.
 
+By populare demands the project is now split up in two versions: The standard MacKeyBoardNorwegian.ahk file has all the
+function-keys intact. This version is meant for developers. The MacKeyBoardNorwegianWithMediaKeys.ahk has all the mediakeys
+enabled. Feel free to choose.
+
 Installation
 ------------
 
