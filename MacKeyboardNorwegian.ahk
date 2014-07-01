@@ -116,13 +116,13 @@ Lwin & Tab::AltTab
 ; --------------------------------------------------------------
 
 ; Map @ correctly
-'::@ 
+'::@  
 
 ; Map ' correctly
 |::'
 
-; TODO: Send * correctly
-;'@::SendInput {NumpadMult}
+;Mapping * correctly
+Shift & '::SendInput {NumpadMult} 
 
 ; Map Shift + Alt + 7 to \
 +!7::SendInput {\}
