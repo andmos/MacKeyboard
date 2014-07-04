@@ -100,7 +100,7 @@ F14::SendInput {ScrollLock}
 #i::^i
 
 ; Bookmark (at least in some browsers)
-#d::^d
+;#d::^d
 
 ; Close windows (cmd + q to Alt + F4)
 #q::Send !{F4}
