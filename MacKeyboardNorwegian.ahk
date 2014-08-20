@@ -45,7 +45,7 @@ F20::SendInput {Insert}
 ;LAlt & Insert::SendInput {LCtrl Down}{LAlt Down}{Insert}
 
 ; Alt + Insert (Generate Code ReSharper)
-LAlt & Insert::SendInput {LAlt Down}{Insert}
+LAlt & F13::SendInput {LAlt Down}{Insert}
 
 
 ; F13-15, standard windows mapping
