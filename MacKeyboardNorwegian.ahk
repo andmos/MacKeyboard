@@ -53,6 +53,10 @@ F13::SendInput {PrintScreen}
 F14::SendInput {ScrollLock}
 ; F15::SendInput {Pause}
 
+;Allow Command +Left/Right to be used as Home/End
+Lwin & Left::SendInput {Home}
+Lwin & Right::SendInput {End}
+
 ; --------------------------------------------------------------
 ; OS X system shortcuts
 ; --------------------------------------------------------------
