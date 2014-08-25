@@ -10,3 +10,4 @@ with the mackeyboard-layout, add these lines to ``AppData\Roaming\SublimeText2\P
         { "keys": ["control+super+c"], "command": "copy" },
         { "keys": ["control+super+v"], "command": "paste" },
 
+Thanks to [Seesharper](https://github.com/seesharper) for this.
