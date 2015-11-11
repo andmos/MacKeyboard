@@ -101,8 +101,8 @@ Lwin & Right::SendInput {End}
 ; Italic:
 #i::^i
 
-; Bookmark (at least in some browsers)
-#d::^d
+; Bookmark (at least in some browsers). This one is in conflict with Show Desktop, uncomment if you need it.
+;#d::^d
 
 ; Close windows (cmd + q to Alt + F4)
 #q::Send !{F4}
