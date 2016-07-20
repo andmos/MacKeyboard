@@ -3,7 +3,7 @@
 ;==================================================
 
 ; --------------------------------------------------------------
-; NOTES 
+; NOTES
 ; --------------------------------------------------------------
 ; ! = ALT
 ; ^ = CTRL
@@ -55,6 +55,10 @@ F14::SendInput {ScrollLock}
 Lwin & Left::SendInput {Home}
 Lwin & Right::SendInput {End}
 
+
+; Delete files
+RWin & BS::SendInput {Delete}
+LWin & BS::SendInput {Delete}
 ; --------------------------------------------------------------
 ; OS X system shortcuts
 ; --------------------------------------------------------------
@@ -119,13 +123,13 @@ Lwin & Tab::AltTab
 ; --------------------------------------------------------------
 
 ; Map @ correctly
-'::@  
+'::@
 
 ; Map ' correctly
 |::'
 
 ;Mapping * correctly
-Shift & '::SendInput {NumpadMult} 
+Shift & '::SendInput {NumpadMult}
 
 ; Map Shift + Alt + 7 to \
 +!7::SendInput {\}
@@ -175,4 +179,3 @@ Shift & '::SendInput {NumpadMult}
 
 ; Map Alt + N to ~
 !n::SendInput {~}
-

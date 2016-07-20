@@ -3,7 +3,7 @@
 ;==================================================
 
 ; --------------------------------------------------------------
-; NOTES 
+; NOTES
 ; --------------------------------------------------------------
 ; ! = ALT
 ; ^ = CTRL
@@ -24,7 +24,7 @@ SendMode Input
 ; --------------------------------------------------------------
 
 
-;By demand of Visual Studio developers, All F-keys are now left as default. Comment out for media keys. 
+;By demand of Visual Studio developers, All F-keys are now left as default. Comment out for media keys.
 
 ;RAlt & F7::SendInput {Media_Prev}
 ;RAlt & F8::SendInput {Media_Play_Pause}
@@ -56,6 +56,10 @@ F14::SendInput {ScrollLock}
 ;Allow Command +Left/Right to be used as Home/End
 Lwin & Left::SendInput {Home}
 Lwin & Right::SendInput {End}
+
+; Delete files
+RWin & BS::SendInput {Delete}
+LWin & BS::SendInput {Delete}
 
 ; --------------------------------------------------------------
 ; OS X system shortcuts
@@ -121,13 +125,13 @@ Lwin & Tab::AltTab
 ; --------------------------------------------------------------
 
 ; Map @ correctly
-'::@  
+'::@
 
 ; Map ' correctly
 |::'
 
 ;Mapping * correctly
-Shift & '::SendInput {NumpadMult} 
+Shift & '::SendInput {NumpadMult}
 
 ; Map Shift + Alt + 7 to \
 +!7::SendInput {\}
@@ -177,4 +181,3 @@ Shift & '::SendInput {NumpadMult}
 
 ; Map Alt + N to ~
 !n::SendInput {~}
-
