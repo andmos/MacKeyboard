@@ -53,10 +53,6 @@ F13::SendInput {PrintScreen}
 F14::SendInput {ScrollLock}
 ; F15::SendInput {Pause}
 
-;Allow Command +Left/Right to be used as Home/End
-Lwin & Left::SendInput {Home}
-Lwin & Right::SendInput {End}
-
 ; Delete files
 RWin & BS::SendInput {Delete}
 LWin & BS::SendInput {Delete}
@@ -181,3 +177,55 @@ Shift & '::SendInput {NumpadMult}
 
 ; Map Alt + N to ~
 !n::SendInput {~}
+
+; OSX NAVIGATION AND SELECTION WITH CMD
+#Up::Send {ctrl down}{Home}{ctrl up}
+#Down::Send {ctrl down}{End}{ctrl up}
+#+Up::Send {ctrl down}{shift down}{Home}{shift up}{ctrl up}
+#+Down::Send {ctrl down}{shift down}{End}{shift up}{ctrl up}
+#Left::Send {Home}
+#Right::Send {End}
+#+Left::Send {shift down}{Home}{shift up}
+#+Right::Send {shift down}{End}{shift up}
+
+; OSX NAVIGATION AND SELECTION WITH ALT
+!Left::Send {ctrl down}{Left}{ctrl up}
+!Right::Send {ctrl down}{Right}{ctrl up}
+!+Left::Send {ctrl down}{shift down}{Left}{shift up}{ctrl up}
+!+Right::Send {ctrl down}{shift down}{Right}{shift up}{ctrl up}
+
+;Allow Command +Left/Right to be used as Home/End
+;Lwin & Left::SendInput {Home}
+;Lwin & Right::SendInput {End}
+
+
+; --------------------------------------------------------------
+; Application specific
+; --------------------------------------------------------------
+
+; Google Chrome
+#IfWinActive ahk_class Chrome_WidgetWin_1
+
+; Show Web Developer Tools with cmd + alt + i
+#!i::Send {F12}
+
+; Show source code with cmd + alt + u
+#!u::Send ^u
+
+;New Tab
+#t::Send ^t
+
+;Close Tab
+#w::Send ^w
+
+;Hacking copy paste in Chrome
+#c::Send ^c
+#v::Send ^v
+#x::Send ^x
+
+;Focus URL-field, not lock PC
+;^l::return
+;#l::SendInput ^{l}
+
+
+#IfWinActive
