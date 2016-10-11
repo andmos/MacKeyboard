@@ -227,5 +227,8 @@ Shift & '::SendInput {NumpadMult}
 ;^l::return
 ;#l::SendInput ^{l}
 
+; Visual Studio
+; Mouse button 4/5 Navigate forward/backward
+#IfWinActive ahk_exe devenv.exe
+#XButton1::SendInput, {Ctrl Down}{-}{Ctrl Up}
 
-#IfWinActive
