@@ -18,10 +18,6 @@
 SetTitleMatchMode 2
 SendMode Input
 
-;Use a standarized way to go backward and forward with mouse button 4 and 5
-XButton1::Send, {BROWSER_FORWARD}
-XButton2::Send, {BROWSER_BACK}
-
 
 ; --------------------------------------------------------------
 ; media/function keys all mapped to the right option key
@@ -231,5 +227,11 @@ Shift & '::SendInput {NumpadMult}
 ;^l::return
 ;#l::SendInput ^{l}
 
+
+;MOUSE-TWEAKS
+
+;Use a standarized way to go backward and forward with mouse button 4 and 5
+XButton1::Send, {BROWSER_FORWARD}
+XButton2::Send, {BROWSER_BACK}
 
 #IfWinActive
