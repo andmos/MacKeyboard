@@ -18,3 +18,4 @@ Installation
 - Put the `MacKeyboardNorwegian.ahk` file or a shortcut to the file in your Autostart folder to run it automatically on startup.
 
 Feel free to send me pull request if you have changes or something is not working.
+
